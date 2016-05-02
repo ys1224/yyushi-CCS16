@@ -1,0 +1,47 @@
+function setup() {
+createCanvas(400,400);
+background('black')
+}
+
+function draw() {
+strokeWeight(1);
+stroke('white');
+line(0,25,400,25);
+line(0,50,400,50)
+line(0,75,400,75);
+line(0,100,400,100);
+line(0,125,400,125);
+line(0,150,400,150);
+line(0,175,400,175);
+line(0,200,400,200);
+line(0,225,400,225);
+line(0,250,400,250);
+line(0,275,400,275);
+line(0,300,400,300);
+line(0,325,400,325);
+line(0,350,400,350);
+line(0,375,400,375);
+line(25,0,25,400);
+line(50,0,50,400);
+line(75,0,75,400);
+line(100,0,100,400);
+line(125,0,125,400);
+line(150,0,150,400);
+line(175,0,175,400);
+line(200,0,200,400);
+line(225,0,225,400);
+line(250,0,250,400);
+line(275,0,275,400);
+line(300,0,300,400);
+line(325,0,325,400);
+line(350,0,350,400);
+line(375,0,375,400);
+strokeWeight(4);
+noFill();
+stroke('pink')
+arc(0,400,500,800,PI+QUARTER_PI, TWO_PI)
+arc(400,100,200,200,HALF_PI, PI+HALF_PI)
+arc(300,0,200,200,0,PI)
+arc(100,400,600,425,PI,TWO_PI)
+arc(0,300,200,200,PI+HALF_PI,HALF_PI)
+arc(125,400,250,200,PI,TWO_PI)
